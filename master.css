@@ -1,0 +1,54 @@
+.add {
+    margin: 20px auto;
+    width: 600px;
+    padding: 20px 30px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add input{
+    width: 80%;
+    height: 30px;
+}
+.add .btn {
+    background-color: #9c27b0;
+    height: 30px;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.res {
+    width: 600px;
+    background-color: #607d8b;
+    min-height: 40px;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.res > div {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.res div div {
+    color: #673ab7;
+    font-weight: bold;
+    font-size: 18px;
+}
+.res .Task p {
+    margin: 6px;
+}
+.res div .delete-btn {
+    color: #fff;
+    background-color: #e91e63;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
